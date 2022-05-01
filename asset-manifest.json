@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yoi/static/css/main.aeb8d886.css",
+    "main.js": "/yoi/static/js/main.80f116e1.js",
+    "static/js/787.70f169b2.chunk.js": "/yoi/static/js/787.70f169b2.chunk.js",
+    "index.html": "/yoi/index.html",
+    "main.aeb8d886.css.map": "/yoi/static/css/main.aeb8d886.css.map",
+    "main.80f116e1.js.map": "/yoi/static/js/main.80f116e1.js.map",
+    "787.70f169b2.chunk.js.map": "/yoi/static/js/787.70f169b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aeb8d886.css",
+    "static/js/main.80f116e1.js"
+  ]
+}
