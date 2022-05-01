@@ -1,0 +1,85 @@
+body{
+  overflow-x: hidden;
+}
+
+.navbg{
+  height: 103vh;
+  background: url('https://st4.depositphotos.com/34990654/37859/i/600/depositphotos_378594794-stock-photo-glittering-at-night-habbul-wathan.jpg');
+  background-size: cover;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+.intro{
+  height: 40%;
+}
+
+.title{
+  font-size: 3em;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+.content{
+  height: 100vh;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy652_6KiT7MvgyF1ANnmt2C2Ykq0yMC-d3A&usqp=CAU');
+  background-size: cover;
+}
+
+.full{
+  height: 100vh;
+}
+
+.sm{
+  width: 100px;
+}
+
+.text{
+  max-width: 500px;
+  font-weight: 600;
+}
+
+.in{
+  animation: in 1s forwards;
+}
+
+@keyframes in {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.out{
+  animation: out 1s forwards;
+}
+
+@keyframes out {
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+
+.click{
+  transition: .5s;
+}
+
+.click:hover{
+  transform: scale(1.5);
+}
+
+.footer{
+  height: 100vh;
+  background: url('https://1.bp.blogspot.com/-4J_We3EMzKI/XqFycUTJ5HI/AAAAAAAAF2s/CQfIodn4oG0L6ZMsh6AfeF9T-o3YE24YQCLcBGAsYHQ/s1920/idul%2Bfitri-01.jpg');
+  background-size: cover;
+}
